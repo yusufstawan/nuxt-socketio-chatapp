@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-socketio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon -w server.js -w nuxt.config.js server.js",
+    "build": "nuxt build",
+    "start": "NODE_ENV=production node server.js",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.2",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
